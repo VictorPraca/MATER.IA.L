@@ -1,0 +1,10 @@
+# Python e Venv
+venv/
+__pycache__/
+*.pyc
+
+# Banco de dados local (não subir se for SQLite)
+db.sqlite3
+
+# Variáveis de ambiente
+.env
