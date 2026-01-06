@@ -1,3 +1,7 @@
-from django.shortcuts import render
+from rest_framework import viewsets
+from .models import Engenheiro
+from .serializers import EngenheiroSerializer
 
-# Create your views here.
+class EngenheiroViewSet(viewsets.ModelViewSet):
+    queryset = Engenheiro.objects.all()
+    serializer_class = EngenheiroSerializer
