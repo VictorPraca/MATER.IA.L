@@ -1,0 +1,49 @@
+# --- Correções Principais (Pastas do Angular e Node) ---
+# A retirada da "/" no começo faz valer para a pasta frontend/
+node_modules/
+dist/
+tmp/
+out-tsc/
+bazel-out/
+
+# --- Logs ---
+npm-debug.log
+yarn-error.log
+testem.log
+
+# --- IDEs e Editores (Mantendo tudo para garantir) ---
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# --- Visual Studio Code ---
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/
+
+# --- Angular Cache e Outros ---
+.angular/
+.sass-cache/
+connect.lock
+coverage/
+libpeerconnection.log
+typings/
+__screenshots__/
+
+# --- Arquivos de Sistema Operacional ---
+.DS_Store
+Thumbs.db
+
+# --- PYTHON / DJANGO (Parte do Backend) ---
+venv/
+__pycache__/
+*.pyc
+*.sqlite3
+.env
